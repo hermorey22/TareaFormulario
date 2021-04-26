@@ -1,0 +1,101 @@
+<html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Formulario</title>
+    </head>
+    <body>
+      <h1>Formulario</h1>
+      <form action="" target="_self">
+        <ul>
+          <li>
+            <label for="nombre">Nombre: </label><input
+              type="text"
+              name="nombre"
+            />
+          </li>
+          <li>
+            <label for="apellido">Apellido: </label><input
+              type="text"
+              name="apellido"
+            />
+          </li>
+          <li>
+            <label for="edad">Edad: </label><input
+              type="number"
+              name="edad"
+            /><br /><br />
+          </li>
+  
+          <li>
+            <label for="Email de Usuario">Email de Usuario:</label>
+            <input
+              type="text"
+              id="Email de Usuario"
+              name="Email de Usuario"
+            /><br />
+            <label for="Contraseña">Contraseña:</label>
+            <input
+              type="password"
+              id="Contraseña"
+              name="Contraseña"
+            /><br /><br />
+          </li>
+  
+          <li>
+            <label for="checkbox">Seleccion la Ocupación que tenga:</label>
+            <br /><input
+              type="checkbox"
+              id="Ocupacion1"
+              name="Ocupacion1"
+              value="Estudiante"
+            />
+            <label for="Ocupacion1"> Estudiante</label>
+            <input
+              type="checkbox"
+              id="Ocupacion2"
+              name="Ocupacion2"
+              value="Profesional"
+            />
+  
+            <label for="Ocupacion2"> Profesional</label>
+            <input
+              type="checkbox"
+              id="Ocupacion3"
+              name="Ocupacion3"
+              value="Otro"
+            />
+            <label for="Ocupacion3"> Otro</label><br /><br />
+          </li>
+  
+          <li>
+            <label for="contacto"> Hora de contacto:</label><br />
+            <select name="contacto">
+              <option value="mañana">mañana</option>
+              <option value="mediodía">mediodía</option>
+              <option value="tarde">o tarde</optio>
+              </select><br /><br />
+          </li>
+  
+          <li>
+            <label for="comentario">Comentario:</label><br/><textarea name="comment" rows="3" cols="20" placeholder="Deje su comentario"></textarea><br /><br />
+          </li>
+  
+          <li>
+            <label for="Email"
+              >Desea recibir más información en su casilla de correo :</label
+            ><br />
+            <input type="radio" id="Si" name="Email" value="Si" />
+            <label for="Si">Si</label>
+  
+            <input type="radio" id="No" name="Email" value="No" />
+            <label for="No">No</label><br /><br />
+          </li>
+  
+          <li>
+            <input type="submit" value="Enviar" />
+          </li>
+        </ul>
+      </form>
+    </body>
+  </html>
